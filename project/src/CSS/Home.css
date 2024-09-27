@@ -1,0 +1,44 @@
+.section {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .card {
+  background-color: antiquewhite;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container .card .vennue {
+  background-color: #0099ff;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.container .card .score-container .scores {
+  display: flex;
+  gap: 150px;
+  font-size: 20px;
+  font-weight: 700;
+}
