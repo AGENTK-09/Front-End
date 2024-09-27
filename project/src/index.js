@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
+import ViewScore from "./Pages/ViewScore";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter([
@@ -13,7 +14,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        path: "Home",
         element: <Home />,
+      },
+      {
+        path: "Scorecard",
+        element: <ViewScore />,
       },
     ],
   },

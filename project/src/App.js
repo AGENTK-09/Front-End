@@ -5,9 +5,10 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
+     <Navbar />
       <Outlet />
-      <Navbar />
-      <ViewScore />
+     
+
     </>
   );
 }
