@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+}
+
+html {
+  margin: 0 !important;
+}
+
+body {
+  /* background: url("https://www.shutterstock.com/image-vector/black-stroke-style-cricket-equipments-600nw-2062425104.jpg"); */
+  height: 100vh;
+}

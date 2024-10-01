@@ -1,0 +1,31 @@
+.scorecard-section {
+  /* height: 100%;
+  width: 100%; */
+  background: url("https://www.shutterstock.com/image-vector/black-stroke-style-cricket-equipments-600nw-2062425104.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.scorecard-section .scorecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.scorecard-section .scorecard .text-center {
+  background: rgb(26, 54, 54);
+  background: linear-gradient(
+    15deg,
+    rgba(26, 54, 54, 1) 41%,
+    rgba(54, 112, 65, 1) 86%
+  );
+  /* background: transparent; */
+  /* opacity: 0.2; */
+  color: white;
+  width: 100%;
+}
+
+.scorecard-section .scorecard .text-center .text-muted {
+  color: white !important;
+}

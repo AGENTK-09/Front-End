@@ -1,0 +1,158 @@
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #1a3636;
+}
+
+.card-section .heading {
+  text-align: center;
+  background-color: #1a3636;
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 12px;
+  width: 10%;
+  font-size: 20px;
+}
+
+.card-section .heading:hover {
+  background-color: #fff;
+  color: gold;
+}
+
+.card-section .card-container {
+  width: 90%;
+  /* display: grid; */
+  gap: 2rem;
+  padding: 30px;
+  /* padding-left: 50px; */
+  text-align: center;
+  /* margin-left: 100px; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card-section .card-container .match-loader {
+  height: 100px;
+  text-align: center;
+  /* margin-left: 500px; */
+}
+.card-section .card-container .link {
+  text-decoration: none;
+}
+
+.card-section .card-container .link .card {
+  text-decoration: none;
+  width: 400px;
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  border: 1px solid;
+  /* box-shadow: 1px 1px 13px 3px gray; */
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  border-radius: 20px;
+  border-top: #1a3636;
+  color: black;
+  align-items: center;
+}
+
+.card-section .card-container .link .card .result {
+  font-size: 18px;
+  font-weight: 500;
+  color: #216363;
+  padding: 12px;
+}
+
+.card-section .card-container .link .card hr {
+  width: 80%;
+  margin: 0;
+  /* padding: 10px; */
+}
+
+.card-section .card-container .card .teams {
+  padding: 15px;
+}
+
+.card-section .card-container .card .teams .versus {
+  padding: 10px;
+}
+
+.card-section .card-container .card .match-name {
+  text-align: center;
+}
+
+.card-section .card-container .card .teams {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.card-section .card-container .link .card .venue {
+  font-size: 17px;
+  padding: 15px 0 5px 0;
+  font-weight: 500;
+}
+
+.card-section .card-container .link .card .date {
+  color: rgb(100, 100, 100);
+}
+
+.card-section .card-container .card .team-a,
+.card-section .card-container .card .team-b {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-section .card-container .link .card .match-name {
+  background-color: gold;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 425px) {
+  .card-section {
+    width: 100vw;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    /* padding: 10px; */
+  }
+
+  .card-section .card-container {
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    width: 97%;
+    /* padding: 20px; */
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-section .heading {
+    text-align: center;
+    background-color: #1a3636;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 12px;
+    width: 20%;
+    font-size: 15px;
+  }
+  .card-section .card-container .card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .card-section .card-container .card-slider {
+    gap: 15px;
+  }
+}

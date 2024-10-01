@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
+import ScoreCards from "./Pages/ScoreCards";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      { path: "/scorecard/:id", element: <ScoreCards /> },
     ],
   },
 ]);
